@@ -5,7 +5,7 @@ int main(){
   float raggio,circ,super;
 
   printf("insersci il raggio \t");
-  scanf("%f", &raggio);
+  scanf("%d", &raggio);
   circ = pi * raggio * 2;
   printf ("la circonferenza e' %f\n", circ);
   super = pi * raggio * raggio;
